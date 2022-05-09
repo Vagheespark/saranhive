@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "Name": "dd",
+      "EmailAddress": "ddd",
+      "Password": "ddd"
+    },
+    {
+      "id": 3,
+      "Name": "saranya",
+      "EmailAddress": "saran@gmail.com",
+      "Password": "pass"
+    },
+    {
+      "id": 4,
+      "Name": "ijanu",
+      "EmailAddress": "ijanu@123",
+      "Password": "123456"
+    },
+    {
+      "id": 5,
+      "Name": "Ram",
+      "EmailAddress": "Raj",
+      "Password": "123456"
+    },
+    {
+      "id": 6,
+      "Name": "saranya",
+      "EmailAddress": "saran@gmail.com",
+      "Password": "sss"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
