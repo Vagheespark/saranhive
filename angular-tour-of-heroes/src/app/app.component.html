@@ -1,4 +1,4 @@
-
+<router-outlet></router-outlet>
 <nav class="navbar navbar-light bg-info">
 
 <div class = "container-fluid">
@@ -34,7 +34,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form [formGroup]="formValue">
+        <!-- <form [formGroup]="formValue"> -->
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" formControlName="Name" class="form-control" id="name">
@@ -49,7 +49,7 @@
          </div>
           
           
-        </form>
+        <!-- </form> -->
       </div>
       <div class="modal-footer">
         <button type="button" id = "cancel" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -58,5 +58,3 @@
     </div>
   </div>
 </div>
-
-<router-outlet></router-outlet>
