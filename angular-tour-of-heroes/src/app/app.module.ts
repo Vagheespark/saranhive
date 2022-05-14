@@ -10,25 +10,21 @@ import { initializeApp } from "firebase/app";
 
 //import firebase module
 
-import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
 @NgModule({
-  schemas: [
-    CUSTOM_ELEMENTS_SCHEMA
-  ],
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    //  AngularFireModule.initializeApp(environment.firebase),
+    // AngularFireModule.initializeApp(environment.firebase),
     //  AngularFireDatabaseModule,
     //  AngularFirestoreModule
     
